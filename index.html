@@ -41,8 +41,10 @@
           Enter your URL below to generate your own QR Code and download the
           image!
         </p>
+        <p>Just right click the QR Code and save the image to your device!</p>
         <form id="generate-form" class="form">
           <input
+            required
             id="url"
             type="url"
             placeholder="Enter a URL"
@@ -60,6 +62,8 @@
           </select>
           <button class="btn" type="submit">Generate QR Code</button>
         </form>
+      </div>
+        <div id="qrcode" class="qrcode"></div>
       </div>
     </main>
   </body>
