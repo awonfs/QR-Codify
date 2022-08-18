@@ -63,6 +63,10 @@ p {
   border: none;
 }
 
+.form-input:focus {
+  outline: none;
+}
+
 .form-select {
   width: 304px;
   height: 25px;
