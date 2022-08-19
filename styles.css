@@ -98,19 +98,9 @@ p {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.saveBtn {
-  color: white;
-  background-color: red;
-  border: none;
-  border-radius: 2px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  width: 200px;
-  text-decoration: none;
-  font-family: "Roboto slab", serif;
-}
 
 @media (max-width: 768px) {
   h2 {
